@@ -2,6 +2,8 @@
 #include <iostream>
 #include <deque>
 
+using namespace std;
+
 int main ()
 {
   unsigned int i;
@@ -23,4 +25,3 @@ int main ()
 
   return 0;
 }
-

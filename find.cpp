@@ -23,7 +23,7 @@ int main(){
 
     // the call to find
     vector<string>::iterator sit = find(vbegin, vend, "hat");
-    
+
     // if the find failed then the value of sit will be vend
     if(sit!=vend)
         cout << "Found \"" << *sit << "\" at location " << (sit-vs.begin()) << endl;
